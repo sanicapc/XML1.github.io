@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="shoppingSchema.xsd">
+	<order>
+		<order_id>1</order_id>
+		<description>Something ordered 1</description>
+		<requestDate>2021-11-02</requestDate>
+		<item>
+			<movie>
+				<id>1</id>
+				<name>Lucy</name>
+				<genre>science-fiction</genre>
+				<releaseDate>2006-10-03</releaseDate>
+				<actor>
+					<firstname>Scarlett</firstname>
+					<lastname>Johansson</lastname>
+				</actor>
+				<actor>
+					<firstname>Morgan</firstname>
+					<lastname>Freeman</lastname>
+					<age>63</age>
+				</actor>
+			</movie>
+			<quantity>10</quantity>
+			<price>100</price>
+		</item>
+		<item>
+			<movie>
+				<id>2</id>
+				<name>Dr. Strange</name>
+				<genre>science-fiction</genre>
+				<releaseDate>2018-10-03</releaseDate>
+				<actor>
+					<firstname>Benedict</firstname>
+					<lastname>Cumberbach</lastname>
+				</actor>
+			</movie>
+			<quantity>109</quantity>
+			<price>10008</price>
+		</item>
+	</order>
+	<order>
+		<order_id>2</order_id>
+		<description>Something ordered 2</description>
+		<requestDate>2022-11-02</requestDate>
+		<item>
+			<movie>
+				<id>1</id>
+				<name>Spiderman</name>
+				<genre>science-fiction</genre>
+				<releaseDate>2010-10-03</releaseDate>
+				<actor>
+					<firstname>Andrew</firstname>
+					<lastname>Garfield</lastname>
+					<age>39</age>
+				</actor>
+			</movie>
+			<quantity>10</quantity>
+			<price>100</price>
+		</item>
+	</order>
+	
+</orders>
